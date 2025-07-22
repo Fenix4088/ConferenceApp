@@ -2,8 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Confab.Modules.Conferences.Api.Controllers;
 
-[Route("conferences-module")]
-internal class HomeController : ControllerBase
+internal class HomeController : BaseController
 {
     [HttpGet]
     public ActionResult<string> Get() => "Hello Conferences!";

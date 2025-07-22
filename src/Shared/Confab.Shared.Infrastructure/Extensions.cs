@@ -1,5 +1,7 @@
 using System.Runtime.CompilerServices;
+using Confab.Shared.Abstractions;
 using Confab.Shared.Infrastructure.Api;
+using Confab.Shared.Infrastructure.Time;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -11,6 +13,7 @@ internal static class Extensions
     public static IServiceCollection AddInfrastructure(this IServiceCollection services)
     {
         services
+            .AddSingleton<IClock, UtcClock>()
             .AddControllers()
             .ConfigureApplicationPartManager(manager =>
             {

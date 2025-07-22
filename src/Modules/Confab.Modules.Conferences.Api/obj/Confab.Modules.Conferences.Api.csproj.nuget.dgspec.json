@@ -90,7 +90,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/Confab.Shared.Abstractions.csproj": {
+                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/Confab.Shared.Abstractions.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
