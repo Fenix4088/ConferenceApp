@@ -1,0 +1,15 @@
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/bin/Debug/net8.0/Confab.Shared.Infracstructure.deps.json
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/bin/Debug/net8.0/Confab.Shared.Infracstructure.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/bin/Debug/net8.0/Confab.Shared.Infracstructure.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/bin/Debug/net8.0/Confab.Shared.Abstractions.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/bin/Debug/net8.0/Confab.Shared.Abstractions.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/obj/Debug/net8.0/Confab.Shared.Infracstructure.csproj.AssemblyReference.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/obj/Debug/net8.0/Confab.Shared.Infracstructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/obj/Debug/net8.0/Confab.Shared.Infracstructure.AssemblyInfoInputs.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/obj/Debug/net8.0/Confab.Shared.Infracstructure.AssemblyInfo.cs
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/obj/Debug/net8.0/Confab.Shared.Infracstructure.csproj.CoreCompileInputs.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/obj/Debug/net8.0/Confab.S.FEB58F49.Up2Date
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/obj/Debug/net8.0/Confab.Shared.Infracstructure.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/obj/Debug/net8.0/refint/Confab.Shared.Infracstructure.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/obj/Debug/net8.0/Confab.Shared.Infracstructure.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infracstructure/obj/Debug/net8.0/ref/Confab.Shared.Infracstructure.dll

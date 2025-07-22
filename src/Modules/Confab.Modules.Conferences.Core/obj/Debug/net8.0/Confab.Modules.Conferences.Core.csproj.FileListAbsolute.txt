@@ -1,0 +1,12 @@
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/bin/Debug/net8.0/Confab.Modules.Conferences.Core.deps.json
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/bin/Debug/net8.0/Confab.Modules.Conferences.Core.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/bin/Debug/net8.0/Confab.Modules.Conferences.Core.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/obj/Debug/net8.0/Confab.Modules.Conferences.Core.csproj.AssemblyReference.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/obj/Debug/net8.0/Confab.Modules.Conferences.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/obj/Debug/net8.0/Confab.Modules.Conferences.Core.AssemblyInfoInputs.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/obj/Debug/net8.0/Confab.Modules.Conferences.Core.AssemblyInfo.cs
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/obj/Debug/net8.0/Confab.Modules.Conferences.Core.csproj.CoreCompileInputs.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/obj/Debug/net8.0/Confab.Modules.Conferences.Core.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/obj/Debug/net8.0/refint/Confab.Modules.Conferences.Core.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/obj/Debug/net8.0/Confab.Modules.Conferences.Core.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/obj/Debug/net8.0/ref/Confab.Modules.Conferences.Core.dll
