@@ -13,3 +13,4 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/refint/Confab.Shared.Infrastructure.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/Confab.Shared.Infrastructure.pdb
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/ref/Confab.Shared.Infrastructure.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/Confab.Shared.Infrastructure.sourcelink.json

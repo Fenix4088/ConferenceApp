@@ -17,3 +17,4 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Api/bin/Debug/net8.0/Confab.Shared.Infrastructure.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Api/bin/Debug/net8.0/Confab.Shared.Infrastructure.pdb
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Api/bin/Debug/net8.0/Confab.Shared.Abstractions.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Api/obj/Debug/net8.0/Confab.Modules.Conferences.Api.sourcelink.json

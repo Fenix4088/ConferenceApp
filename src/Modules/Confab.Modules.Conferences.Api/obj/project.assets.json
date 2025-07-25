@@ -57,8 +57,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Confab.Shared.Abstractions": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+          "Confab.Shared.Abstractions": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Confab.Modules.Conferences.Core.dll": {}

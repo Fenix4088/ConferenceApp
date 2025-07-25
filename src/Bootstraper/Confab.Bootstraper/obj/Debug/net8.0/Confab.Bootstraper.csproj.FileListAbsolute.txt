@@ -35,3 +35,4 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Shared.Infrastructure.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Shared.Infrastructure.pdb
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/obj/Debug/net8.0/Confab.Bootstraper.MvcApplicationPartsAssemblyInfo.cs
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/obj/Debug/net8.0/Confab.Bootstraper.sourcelink.json

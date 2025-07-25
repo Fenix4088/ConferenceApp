@@ -22,7 +22,7 @@ internal class HostController(IHostService hostService) : BaseController
     public async Task<ActionResult> AddAsync(HostDto hostDto)
     {
         await hostService.AddAsync(hostDto);
-        return CreatedAtAction(nameof(GetAsync), new { id = hostDto.Id }, null);
+        return Ok();
     }
     
     [HttpPut("{id:guid}")]

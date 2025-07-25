@@ -4,7 +4,7 @@ namespace Confab.Modules.Conferences.Core.Repositories;
 
 internal interface IHostRepository
 {
-    Task<Host> GetAsync(Guid id);
+    Task<Host?> GetAsync(Guid id);
     Task<IEnumerable<Host>> GetAllAsync();
     Task AddAsync(Host host);
     Task UpdateAsync(Host host);

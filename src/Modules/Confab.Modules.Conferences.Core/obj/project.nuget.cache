@@ -1,22 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "VzFIEVUiJtE=",
-  "success": false,
+  "dgSpecHash": "SqJ4EjVdprU=",
+  "success": true,
   "projectFilePath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj",
   "expectedPackageFiles": [
     "/Users/fenix/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "/Users/fenix/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/fenix/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "/Users/fenix/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.DependencyInjection.Abstractions from 8.0.2 to 8.0.0. Reference the package directly from the project to select a different version. \n Confab.Modules.Conferences.Core -> Confab.Shared.Abstractions -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 8.0.2) \n Confab.Modules.Conferences.Core -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 8.0.0)",
-      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -6,7 +6,11 @@ using Confab.Modules.Conferences.Core.Repositories;
 
 namespace Confab.Modules.Conferences.Core.Services;
 
-internal class HostService(IHostRepository hostRepository, IHostDeletionPolicy hostDeletionPolicy) : IHostService
+internal class HostService(
+    IHostRepository hostRepository, 
+    IHostDeletionPolicy hostDeletionPolicy, 
+    IConferenceRepository conferenceRepository
+    ) : IHostService
 {
     public async Task AddAsync(HostDto hostDto)
     {
@@ -25,15 +29,18 @@ internal class HostService(IHostRepository hostRepository, IHostDeletionPolicy h
         if (host is null) return null;
         
         var dto = Map<HostDetailsDto>(host);
-        dto.Conferences = host.Conferences.Select(conference => new ConferenceDto()
+
+        var conferences = (await conferenceRepository.GetAllAsync()).Where(x => x.HostId == id).ToList();
+        
+        dto.Conferences = conferences.Select(conference => new ConferenceDto()
         {
             Id = conference.Id,
             Name = conference.Name,
             HostId = conference.HostId,
-            HostName = conference.Host.Name,
+            HostName = conference.Host?.Name,
             Location = conference.Location,
             LogoUrl = conference.LogoUrl,
-            ParticipantsLimit = conference.ParticipantsLimit,
+            ParticipantsLimit = conference?.ParticipantsLimit,
             From = conference.From,
             To = conference.To
         }).ToList();

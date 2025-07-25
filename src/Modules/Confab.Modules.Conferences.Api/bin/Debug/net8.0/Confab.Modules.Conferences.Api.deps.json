@@ -31,7 +31,7 @@
       "Microsoft.Extensions.Primitives/8.0.0": {},
       "Confab.Modules.Conferences.Core/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+          "Confab.Shared.Abstractions": "1.0.0"
         },
         "runtime": {
           "Confab.Modules.Conferences.Core.dll": {}
