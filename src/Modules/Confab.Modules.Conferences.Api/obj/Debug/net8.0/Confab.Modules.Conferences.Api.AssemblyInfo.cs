@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Confab.Modules.Conferences.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c00a160a35fa2701291addd5925970459e9c16e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e66e114ae75bcc0418f8e8627fa7eb593c6f52f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Confab.Modules.Conferences.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Confab.Modules.Conferences.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

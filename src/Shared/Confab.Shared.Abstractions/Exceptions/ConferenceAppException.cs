@@ -1,6 +1,3 @@
 namespace Confab.Shared.Abstractions.Exceptions;
 
-public abstract class ConferenceAppException(string message) : Exception(message)
-{
-    
-} 
+public abstract class ConferenceAppException(string message) : Exception(message);
