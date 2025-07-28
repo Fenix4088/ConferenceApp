@@ -8,5 +8,5 @@ internal interface IHostRepository
     Task<IEnumerable<Host>> GetAllAsync();
     Task AddAsync(Host host);
     Task UpdateAsync(Host host);
-    Task DeleteAsync(Guid id);
+    Task DeleteAsync(Host host);
 }

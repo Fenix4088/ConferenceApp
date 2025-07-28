@@ -83,7 +83,7 @@ internal class HostService(
             throw new CanNotDeleteHostException(id);
         }
         
-        await hostRepository.DeleteAsync(id);
+        await hostRepository.DeleteAsync(host);
     }
     
     private static T Map<T>(Host host) where T : HostDto, new()

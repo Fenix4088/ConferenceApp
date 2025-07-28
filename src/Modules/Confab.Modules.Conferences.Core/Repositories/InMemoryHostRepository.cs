@@ -28,13 +28,10 @@ internal class InMemoryHostRepository : IHostRepository
         return Task.CompletedTask;
     }
 
-    public Task DeleteAsync(Guid id)
+    public Task DeleteAsync(Host host)
     {
-        var host = _hosts.FirstOrDefault(h => h.Id == id);
-        if (host != null)
-        {
-            _hosts.Remove(host);
-        }
+
+        _hosts.Remove(host);
         return Task.CompletedTask;
     }
 }

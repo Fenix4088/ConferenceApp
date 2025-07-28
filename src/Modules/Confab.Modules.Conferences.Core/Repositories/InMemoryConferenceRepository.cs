@@ -27,13 +27,9 @@ internal class InMemoryConferenceRepository : IConferenceRepository
         return Task.CompletedTask;
     }
 
-    public Task DeleteAsync(Guid id)
+    public Task DeleteAsync(Conference conference)
     {
-        var conference = _conferences.FirstOrDefault(c => c.Id == id);
-        if (conference != null)
-        {
-            _conferences.Remove(conference);
-        }
+        _conferences.Remove(conference);
         return Task.CompletedTask;
     }
 }

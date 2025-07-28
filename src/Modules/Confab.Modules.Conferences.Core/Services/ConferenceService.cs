@@ -87,7 +87,7 @@ internal class ConferenceService(
             throw new CanNotDeleteConferenceException(id);
         }
         
-        await conferenceRepository.DeleteAsync(id);
+        await conferenceRepository.DeleteAsync(conference);
         
     }
     

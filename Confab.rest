@@ -22,7 +22,7 @@ GET {{attendancesApi}}
 
 ### HOSTS
 ###
-@hostId = 1cd03523-bbcc-40c1-9dbf-10a7153f891a
+@hostId = 24b9a41f-2bca-46f9-aeb3-4a74b268ecce
 
 
 GET {{conferencesApi}}/host

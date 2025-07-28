@@ -8,5 +8,5 @@ internal interface IConferenceRepository
     Task<IReadOnlyList<Conference>> GetAllAsync();
     Task AddAsync(Conference conference);
     Task UpdateAsync(Conference conference);
-    Task DeleteAsync(Guid id);
+    Task DeleteAsync(Conference conference);
 }
