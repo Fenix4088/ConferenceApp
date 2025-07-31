@@ -62,8 +62,7 @@ Content-Type: application/json
 
 ### CONFERENCES
 
-@conferenceId = 2b8c7c72-b1d0-4f88-8ee5-0b45c2c84548
-
+@conferenceId = dde9b23d-0172-4d43-94b5-22def652303a
 ###
 GET {{conferencesApi}}/conference
 Authorization: Bearer {{accessTokenAdmin}}

@@ -1412,7 +1412,10 @@
         },
         "runtime": {
           "bin/placeholder/Confab.Shared.Abstractions.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

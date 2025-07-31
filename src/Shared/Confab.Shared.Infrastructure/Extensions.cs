@@ -32,10 +32,6 @@ internal static class Extensions
     {
         app.UseErrorHandling();
         app.UseRouting();
-        app.UseEndpoints(endpoints =>
-        {
-            endpoints.MapControllers();
-        });
 
         return app;
     }

@@ -890,7 +890,10 @@
         },
         "runtime": {
           "bin/placeholder/Confab.Shared.Abstractions.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Confab.Shared.Infrastructure/1.0.0": {
         "type": "project",

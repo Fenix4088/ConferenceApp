@@ -1,7 +1,6 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/bin/Debug/net8.0/Confab.Shared.Abstractions.deps.json
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/bin/Debug/net8.0/Confab.Shared.Abstractions.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/bin/Debug/net8.0/Confab.Shared.Abstractions.pdb
-/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/Confab.Shared.Abstractions.csproj.AssemblyReference.cache
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/Confab.Shared.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/Confab.Shared.Abstractions.AssemblyInfoInputs.cache
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/Confab.Shared.Abstractions.AssemblyInfo.cs

@@ -8,11 +8,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Confab.Shared.Abstractions\Confab.Shared.Abstractions.csproj" />
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
     
     <ItemGroup>
-        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+      <ProjectReference Include="..\Confab.Shared.Abstractions\Confab.Shared.Abstractions.csproj" />
     </ItemGroup>
     
     <ItemGroup>
