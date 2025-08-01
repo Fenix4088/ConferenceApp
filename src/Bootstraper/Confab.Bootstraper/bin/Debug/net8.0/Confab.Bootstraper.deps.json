@@ -1048,8 +1048,7 @@
       "System.Threading.Channels/6.0.0": {},
       "Confab.Modules.Conferences.Api/1.0.0": {
         "dependencies": {
-          "Confab.Modules.Conferences.Core": "1.0.0",
-          "Confab.Shared.Infrastructure": "1.0.0"
+          "Confab.Modules.Conferences.Core": "1.0.0"
         },
         "runtime": {
           "Confab.Modules.Conferences.Api.dll": {}
@@ -1058,7 +1057,9 @@
       "Confab.Modules.Conferences.Core/1.0.0": {
         "dependencies": {
           "Confab.Shared.Abstractions": "1.0.0",
-          "Confab.Shared.Infrastructure": "1.0.0"
+          "Confab.Shared.Infrastructure": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.11",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
         },
         "runtime": {
           "Confab.Modules.Conferences.Core.dll": {}

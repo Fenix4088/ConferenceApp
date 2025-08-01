@@ -1,4 +1,5 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/bin/Debug/net8.0/Confab.Shared.Infrastructure.deps.json
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/bin/Debug/net8.0/Confab.Shared.Infrastructure.runtimeconfig.json
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/bin/Debug/net8.0/Confab.Shared.Infrastructure.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/bin/Debug/net8.0/Confab.Shared.Infrastructure.pdb
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/bin/Debug/net8.0/Confab.Shared.Abstractions.dll
@@ -8,11 +9,10 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/Confab.Shared.Infrastructure.AssemblyInfoInputs.cache
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/Confab.Shared.Infrastructure.AssemblyInfo.cs
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/Confab.Shared.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/Confab.Shared.Infrastructure.sourcelink.json
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/Confab.S.1D6D423F.Up2Date
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/Confab.Shared.Infrastructure.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/refint/Confab.Shared.Infrastructure.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/Confab.Shared.Infrastructure.pdb
-/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/ref/Confab.Shared.Infrastructure.dll
-/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/Confab.Shared.Infrastructure.sourcelink.json
-/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/bin/Debug/net8.0/Confab.Shared.Infrastructure.runtimeconfig.json
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/Confab.Shared.Infrastructure.genruntimeconfig.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/obj/Debug/net8.0/ref/Confab.Shared.Infrastructure.dll

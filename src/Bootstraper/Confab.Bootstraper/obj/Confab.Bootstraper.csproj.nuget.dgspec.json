@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Api/Confab.Modules.Conferences.Api.csproj": {
-                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Api/Confab.Modules.Conferences.Api.csproj"
+              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Api/Confab.Modules.Conferences.Api.csproj": {
+                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Api/Confab.Modules.Conferences.Api.csproj"
               },
               "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj": {
                 "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj"
@@ -80,14 +80,14 @@
         }
       }
     },
-    "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Api/Confab.Modules.Conferences.Api.csproj": {
+    "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Api/Confab.Modules.Conferences.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Api/Confab.Modules.Conferences.Api.csproj",
+        "projectUniqueName": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Api/Confab.Modules.Conferences.Api.csproj",
         "projectName": "Confab.Modules.Conferences.Api",
-        "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Api/Confab.Modules.Conferences.Api.csproj",
+        "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Api/Confab.Modules.Conferences.Api.csproj",
         "packagesPath": "/Users/fenix/.nuget/packages/",
-        "outputPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Api/obj/",
+        "outputPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/fenix/.nuget/NuGet/NuGet.Config"
@@ -102,11 +102,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj": {
-                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj"
-              },
-              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj": {
-                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj"
+              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj": {
+                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj"
               }
             }
           }
@@ -145,14 +142,14 @@
         }
       }
     },
-    "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj": {
+    "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj",
+        "projectUniqueName": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj",
         "projectName": "Confab.Modules.Conferences.Core",
-        "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj",
+        "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj",
         "packagesPath": "/Users/fenix/.nuget/packages/",
-        "outputPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/obj/",
+        "outputPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/fenix/.nuget/NuGet/NuGet.Config"
@@ -190,6 +187,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

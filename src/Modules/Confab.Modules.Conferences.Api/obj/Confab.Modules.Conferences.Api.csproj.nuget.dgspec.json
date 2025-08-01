@@ -28,9 +28,6 @@
             "projectReferences": {
               "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj": {
                 "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj"
-              },
-              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj": {
-                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj"
               }
             }
           }

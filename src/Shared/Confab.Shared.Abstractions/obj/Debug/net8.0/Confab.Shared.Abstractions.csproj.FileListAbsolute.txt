@@ -5,8 +5,8 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/Confab.Shared.Abstractions.AssemblyInfoInputs.cache
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/Confab.Shared.Abstractions.AssemblyInfo.cs
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/Confab.Shared.Abstractions.csproj.CoreCompileInputs.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/Confab.Shared.Abstractions.sourcelink.json
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/Confab.Shared.Abstractions.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/refint/Confab.Shared.Abstractions.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/Confab.Shared.Abstractions.pdb
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/ref/Confab.Shared.Abstractions.dll
-/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/obj/Debug/net8.0/Confab.Shared.Abstractions.sourcelink.json
