@@ -111,6 +111,75 @@ Content-Type: application/json
 //--------------------------------------------------------------------------------
 
 
+### SPEAKERS MODULE
+//--------------------------------------------------------------------------------
+
+@speakerId = 614231e1-46b5-4928-8539-9a376400a09f
+
+
+###
+GET {{speakersApi}}/speakers
+Authorization: Bearer {{accessTokenAdmin}}
+Content-Type: application/json
+
+###
+POST {{speakersApi}}/speakers
+Authorization: Bearer {{accessTokenAdmin}}
+Content-Type: application/json
+
+{
+    "email": "some3@mail.com",
+    "fullName": "John Doe",
+    "bio": "Lorem ipsum",
+    "avatarUrl": "https://www.w3schools.com/howto/img_avatar.png"
+}
+
+###
+PUT {{speakersApi}}/speakers/{{speakerId}}
+Authorization: Bearer {{accessTokenAdmin}}
+Content-Type: application/json
+
+{
+    "email": "some33@mail.com",
+    "fullName": "John Doe updated",
+    "bio": "Lorem ipsum updated",
+    "avatarUrl": "https://www.w3schools.com/howto/img_avatar.png"
+}
+
+###
+DELETE {{speakersApi}}/speakers/{{speakerId}}
+Authorization: Bearer {{accessTokenAdmin}}
+Content-Type: application/json
+
+###
+//--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ###
 GET {{speakersApi}}
 

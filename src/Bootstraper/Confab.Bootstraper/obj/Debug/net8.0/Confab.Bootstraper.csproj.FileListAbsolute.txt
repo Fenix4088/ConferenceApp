@@ -163,3 +163,9 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Conferences.Core.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Conferences.Api.pdb
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Conferences.Core.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Speakers.Api.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Speakers.Core.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Speakers.Api.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Speakers.Core.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/module.speakers.json
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/module.speakers.development.json

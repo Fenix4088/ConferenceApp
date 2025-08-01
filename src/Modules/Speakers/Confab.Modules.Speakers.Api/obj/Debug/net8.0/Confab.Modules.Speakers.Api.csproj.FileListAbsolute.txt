@@ -30,3 +30,5 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Api/obj/Debug/net8.0/refint/Confab.Modules.Speakers.Api.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Api/obj/Debug/net8.0/Confab.Modules.Speakers.Api.pdb
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Api/obj/Debug/net8.0/ref/Confab.Modules.Speakers.Api.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Api/bin/Debug/net8.0/module.speakers.json
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Api/bin/Debug/net8.0/module.speakers.development.json

@@ -28,3 +28,5 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Core/obj/Debug/net8.0/refint/Confab.Modules.Speakers.Core.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Core/obj/Debug/net8.0/Confab.Modules.Speakers.Core.pdb
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Core/obj/Debug/net8.0/ref/Confab.Modules.Speakers.Core.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Core/bin/Debug/net8.0/Confab.Modules.Speakers.Core.runtimeconfig.json
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Core/obj/Debug/net8.0/Confab.Modules.Speakers.Core.genruntimeconfig.cache
