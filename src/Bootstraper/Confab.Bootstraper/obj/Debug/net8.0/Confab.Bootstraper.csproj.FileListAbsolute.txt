@@ -161,3 +161,5 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/module.conferences.json
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/module.conferences.development.json

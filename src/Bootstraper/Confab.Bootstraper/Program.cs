@@ -1,9 +1,12 @@
 using Confab.Bootstraper;
 using Confab.Shared.Infrastructure;
+using Confab.Shared.Infrastructure.Modules;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var assemblies = ModuleLoader.LoadAssemblies();
+builder.Host.ConfigureModules();
+
+var assemblies = ModuleLoader.LoadAssemblies(builder.Configuration);
 var modules = ModuleLoader.LoadModules(assemblies);
 
 // Reflection registers all modules
@@ -13,7 +16,7 @@ foreach (var module in modules)
 }
 
 builder.Services
-    .AddInfrastructure();
+    .AddInfrastructure(assemblies, modules);
 
 var app = builder.Build();
 
