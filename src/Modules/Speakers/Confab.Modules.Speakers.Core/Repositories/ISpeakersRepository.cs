@@ -9,4 +9,5 @@ internal interface ISpeakersRepository
     Task AddAsync(Speaker speaker);
     Task UpdateAsync(Speaker speaker);
     Task DeleteAsync(Speaker speaker);
+    Task<bool> ExistsAsync(Guid id);
 }

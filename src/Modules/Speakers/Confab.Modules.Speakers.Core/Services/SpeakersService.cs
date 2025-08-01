@@ -1,6 +1,7 @@
 using Confab.Modules.Speakers.Core.DTO;
 using Confab.Modules.Speakers.Core.Entities;
 using Confab.Modules.Speakers.Core.Exceptions;
+using Confab.Modules.Speakers.Core.Mappings;
 using Confab.Modules.Speakers.Core.Repositories;
 
 namespace Confab.Modules.Speakers.Core.Services;
@@ -9,6 +10,11 @@ internal class SpeakersService(ISpeakersRepository speakersRepository) : ISpeake
 {
     public async Task AddAsync(SpeakerDto speakerDto)
     {
+        if(await speakersRepository.ExistsAsync(speakerDto.Id))
+        {
+            throw new SpeakerAlreadyExistException(speakerDto.Id);
+        }
+        
         await speakersRepository.AddAsync(new Speaker
         {
             Email = speakerDto.Email,
@@ -22,12 +28,12 @@ internal class SpeakersService(ISpeakersRepository speakersRepository) : ISpeake
     {
         var speaker = await VerifySpeaker(id);
         
-        return Map<SpeakerDto>(speaker);
+        return speaker.AsDto();
     }
 
     public async Task<IReadOnlyList<SpeakerDto>> GetAllAsync()
     {
-        return (await speakersRepository.GetAllAsync()).Select(Map<SpeakerDto>).ToList();
+        return (await speakersRepository.GetAllAsync()).Select(speaker => speaker.AsDto()).ToList();
     }
 
     public async Task UpdateAsync(SpeakerDto speakerDto)
@@ -59,17 +65,5 @@ internal class SpeakersService(ISpeakersRepository speakersRepository) : ISpeake
         }
         
         return speaker;
-    }
-    
-    private static T Map<T>(Speaker speaker) where T : SpeakerDto, new()
-    {
-        return new T
-        {
-            Id = speaker.Id,
-            Email = speaker.Email,
-            FullName = speaker.FullName,
-            Bio = speaker.Bio,
-            AvatarUrl = speaker.AvatarUrl
-        };
     }
 }

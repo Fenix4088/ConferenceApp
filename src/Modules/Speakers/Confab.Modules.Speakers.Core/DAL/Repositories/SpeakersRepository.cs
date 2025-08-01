@@ -31,4 +31,9 @@ internal class SpeakersRepository(SpeakersDbContext speakersDbContext) : ISpeake
         speakers.Remove(speaker);
         await speakersDbContext.SaveChangesAsync();
     }
+
+    public Task<bool> ExistsAsync(Guid id)
+    {
+        return speakers.AnyAsync(x => x.Id == id);
+    }
 }
