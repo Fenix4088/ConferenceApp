@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Confab.Modules.Speakers.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d007b41a371bf5c283a1872ce64460f64afdcce4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a8af5043ad2e919c71f9b5f5727317f7e8b0156")]
 [assembly: System.Reflection.AssemblyProductAttribute("Confab.Modules.Speakers.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Confab.Modules.Speakers.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
