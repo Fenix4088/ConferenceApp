@@ -32,6 +32,7 @@ foreach (var module in modules)
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
+    endpoints.MapModuleInfo();
 });
 
 app.Run();

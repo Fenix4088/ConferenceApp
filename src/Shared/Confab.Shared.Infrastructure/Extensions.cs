@@ -4,19 +4,25 @@ using Confab.Shared.Abstractions;
 using Confab.Shared.Abstractions.Modules;
 using Confab.Shared.Infrastructure.Api;
 using Confab.Shared.Infrastructure.Auth;
+using Confab.Shared.Infrastructure.Context;
 using Confab.Shared.Infrastructure.Exceptions;
+using Confab.Shared.Infrastructure.Modules;
 using Confab.Shared.Infrastructure.Services;
 using Confab.Shared.Infrastructure.Time;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.OpenApi.Models;
 
 [assembly: InternalsVisibleTo("Confab.Bootstraper")]
 namespace Confab.Shared.Infrastructure;
 
 internal static class Extensions
 {
+    
+    private const string CorsPolicy = "cors";
     public static IServiceCollection AddInfrastructure(
         this IServiceCollection services,
         IList<Assembly> assemblies,
@@ -43,7 +49,30 @@ internal static class Extensions
         }
 
         services
+            .AddCors(cors =>
+            {
+                cors.AddPolicy(CorsPolicy, x =>
+                {
+                    x
+                        .WithOrigins("*")
+                        .WithMethods("POST", "PUT", "DELETE")
+                        .WithHeaders("Content-Type", "Authorization");
+                });
+            })
+            .AddSwaggerGen(swagger =>
+            {
+                swagger.CustomSchemaIds(x => x.FullName);
+                swagger.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Confab API",
+                    Version = "v1",
+                });
+            })
             .AddErrorHandling()
+            .AddSingleton<IContextFactory, ContextFactory>()
+            .AddSingleton<IHttpContextAccessor, HttpContextAccessor>()
+            .AddTransient(sp => sp.GetRequiredService<IContextFactory>().Create())
+            .AddModuleInfo(modules)
             .AddAuth(modules)
             .AddSingleton<IClock, UtcClock>()
             .AddHostedService<AppInitializer>()
@@ -73,7 +102,23 @@ internal static class Extensions
     public static IApplicationBuilder UseInfrastructure(this IApplicationBuilder app)
     {
         app
+         .UseCors(CorsPolicy)
         .UseErrorHandling()
+        .UseSwagger()
+        .UseSwaggerUI(swaggerUI =>
+        {
+            
+            swaggerUI.RoutePrefix = "docs";
+            swaggerUI.SwaggerEndpoint("/swagger/v1/swagger.json", "Confab API V1");
+            swaggerUI.DocumentTitle = "Confab API";
+            swaggerUI.DefaultModelsExpandDepth(-1);
+        })
+        // .UseReDoc(reDoc =>
+        // {
+        //     reDoc.RoutePrefix = "docs";
+        //     reDoc.SpecUrl("/swagger/v1/swagger.json");
+        //     reDoc.DocumentTitle = "Confab API";
+        // })
         .UseAuthentication()
         .UseRouting()
         .UseAuthorization();
