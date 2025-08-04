@@ -8,7 +8,7 @@ internal class ConferenceDeletionPolicy(IClock clock) : IConferenceDeletionPolic
     public async Task<bool> CanDeleteAsync(Conference conference)
     {
         // TODO: check if there any participants?
-        var canDelete = clock.CurrenDate().Date.AddDays(7) < conference.From.Date;
+        var canDelete = clock.CurrentDate().Date.AddDays(7) < conference.From.Date;
 
         return canDelete;
     }

@@ -17,6 +17,44 @@ GET {{agendasApi}}
 ###
 GET {{attendancesApi}}
 
+
+
+
+### USERS MODULE
+@email = user1@confab.io
+@password = secret
+@role = user
+@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzNjkwMWFjYi0xOGU1LTQ2NWYtYTg1Mi00NzcyYzFiOGI3NGUiLCJ1bmlxdWVfbmFtZSI6IjM2OTAxYWNiLTE4ZTUtNDY1Zi1hODUyLTQ3NzJjMWI4Yjc0ZSIsImp0aSI6IjE4NjMzYzJiLTM0OWEtNDUzZS1iMDdhLTFhM2MyMWI4NWMyOCIsImlhdCI6IjE3NTQzMTM5MzI2ODUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJ1c2VyIiwicGVybWlzc2lvbnMiOlsiY29uZmVyZW5jZXMiLCJob3N0cyIsInNwZWFrZXJzIiwidGlja2V0cyIsInVzZXJzIl0sIm5iZiI6MTc1NDMxMzkzMiwiZXhwIjoxNzU0MzQ5OTMyLCJpc3MiOiJjb25mYWIifQ.UtM5sUonkwA-wZAQsmORb3BiaSZbQ3v5S4KcMSJrCBc
+
+###
+GET {{url}}
+
+###
+GET {{url}}/account
+Authorization: Bearer {{accessToken}}
+
+###
+POST {{url}}/users-module/account/sign-up
+Content-Type: application/json
+
+{
+  "email": "{{email}}",
+  "password": "{{password}}",
+  "role": "{{role}}",
+  "claims": {
+    "permissions": ["conferences", "hosts", "speakers", "tickets", "users"]
+  }
+}
+
+###
+POST {{url}}/users-module/account/sign-in
+Content-Type: application/json
+
+{
+  "email": "{{email}}",
+  "password": "{{password}}"
+}
+
 ### CONFERENCES MODULE
 //--------------------------------------------------------------------------------
 
@@ -26,17 +64,15 @@ GET {{attendancesApi}}
 
 
 GET {{conferencesApi}}/host
-Authorization: Bearer {{accessTokenAdmin}}
 Content-Type: application/json
 
 ###
 GET {{conferencesApi}}/host/{{hostId}}
-Authorization: Bearer {{accessTokenAdmin}}
 Content-Type: application/json
 
 ###
 POST {{conferencesApi}}/host
-Authorization: Bearer {{accessTokenAdmin}}
+Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 {
@@ -46,11 +82,11 @@ Content-Type: application/json
 
 ###
 DELETE {{conferencesApi}}/host/27ce9799-4db2-4296-a9ab-f5672a5d2f4b
-Authorization: Bearer {{accessTokenAdmin}}
+Authorization: Bearer {{accessToken}}
 
 ###
 PUT {{conferencesApi}}/host/{{hostId}}
-Authorization: Bearer {{accessTokenAdmin}}
+Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 {
@@ -65,12 +101,12 @@ Content-Type: application/json
 @conferenceId = dde9b23d-0172-4d43-94b5-22def652303a
 ###
 GET {{conferencesApi}}/conference
-Authorization: Bearer {{accessTokenAdmin}}
+Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
 POST {{conferencesApi}}/conference
-Authorization: Bearer {{accessTokenAdmin}}
+Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 {
@@ -87,7 +123,7 @@ Content-Type: application/json
 
 ###
 PUT {{conferencesApi}}/conference/{{conferenceId}}
-Authorization: Bearer {{accessTokenAdmin}}
+Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 {
@@ -104,7 +140,7 @@ Content-Type: application/json
 
 ###
 DELETE {{conferencesApi}}/conference/{{conferenceId}}
-Authorization: Bearer {{accessTokenAdmin}}
+Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
@@ -153,8 +189,6 @@ Content-Type: application/json
 
 ###
 //--------------------------------------------------------------------------------
-
-
 
 
 

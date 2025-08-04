@@ -4,7 +4,7 @@ namespace Confab.Shared.Infrastructure.Time;
 
 public class UtcClock : IClock
 {
-    public DateTime CurrenDate()
+    public DateTime CurrentDate()
     {
         return DateTime.UtcNow;
     }

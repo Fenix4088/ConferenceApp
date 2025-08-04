@@ -3,6 +3,7 @@ using System.Runtime.CompilerServices;
 using Confab.Shared.Abstractions;
 using Confab.Shared.Abstractions.Modules;
 using Confab.Shared.Infrastructure.Api;
+using Confab.Shared.Infrastructure.Auth;
 using Confab.Shared.Infrastructure.Exceptions;
 using Confab.Shared.Infrastructure.Services;
 using Confab.Shared.Infrastructure.Time;
@@ -43,6 +44,7 @@ internal static class Extensions
 
         services
             .AddErrorHandling()
+            .AddAuth(modules)
             .AddSingleton<IClock, UtcClock>()
             .AddHostedService<AppInitializer>()
             .AddControllers()
@@ -70,8 +72,11 @@ internal static class Extensions
 
     public static IApplicationBuilder UseInfrastructure(this IApplicationBuilder app)
     {
-        app.UseErrorHandling();
-        app.UseRouting();
+        app
+        .UseErrorHandling()
+        .UseAuthentication()
+        .UseRouting()
+        .UseAuthorization();
 
         return app;
     }

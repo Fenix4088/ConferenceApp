@@ -28,6 +28,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Modules.Speakers.Api
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Modules.Speakers.Core", "src\Modules\Speakers\Confab.Modules.Speakers.Core\Confab.Modules.Speakers.Core.csproj", "{75B36133-15F8-42B3-B49B-499568533860}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{F95B0DED-C4B8-4FD0-AC60-D30C7419B27B}"
+	ProjectSection(SolutionItems) = preProject
+		src\Modules\Users\module.users.development.json = src\Modules\Users\module.users.development.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Modules.Users.Api", "src\Modules\Users\Confab.Modules.Users.Api\Confab.Modules.Users.Api.csproj", "{B5346DB7-DE99-49D6-AAC3-F5B156F79B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Modules.Users.Core", "src\Modules\Users\Confab.Modules.Users.Core\Confab.Modules.Users.Core.csproj", "{0DA85EA1-CD5C-4D51-80E7-DBD74517D443}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +71,14 @@ Global
 		{75B36133-15F8-42B3-B49B-499568533860}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75B36133-15F8-42B3-B49B-499568533860}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75B36133-15F8-42B3-B49B-499568533860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5346DB7-DE99-49D6-AAC3-F5B156F79B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5346DB7-DE99-49D6-AAC3-F5B156F79B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5346DB7-DE99-49D6-AAC3-F5B156F79B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5346DB7-DE99-49D6-AAC3-F5B156F79B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA85EA1-CD5C-4D51-80E7-DBD74517D443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA85EA1-CD5C-4D51-80E7-DBD74517D443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA85EA1-CD5C-4D51-80E7-DBD74517D443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA85EA1-CD5C-4D51-80E7-DBD74517D443}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FA1A6517-6D75-44EE-A0E0-DACE0D317A1E} = {6F2DA59A-7445-443B-B866-06ADC32E44E7}
@@ -76,5 +93,8 @@ Global
 		{85E3ACCD-E10F-4F7D-B2FD-E055E47D4ED6} = {D8A40A42-A24A-4B1B-942C-4FAE0D5840C6}
 		{85AEF7EA-6C77-403C-8FC9-6B7BC6D91DDD} = {85E3ACCD-E10F-4F7D-B2FD-E055E47D4ED6}
 		{75B36133-15F8-42B3-B49B-499568533860} = {85E3ACCD-E10F-4F7D-B2FD-E055E47D4ED6}
+		{F95B0DED-C4B8-4FD0-AC60-D30C7419B27B} = {D8A40A42-A24A-4B1B-942C-4FAE0D5840C6}
+		{B5346DB7-DE99-49D6-AAC3-F5B156F79B77} = {F95B0DED-C4B8-4FD0-AC60-D30C7419B27B}
+		{0DA85EA1-CD5C-4D51-80E7-DBD74517D443} = {F95B0DED-C4B8-4FD0-AC60-D30C7419B27B}
 	EndGlobalSection
 EndGlobal
