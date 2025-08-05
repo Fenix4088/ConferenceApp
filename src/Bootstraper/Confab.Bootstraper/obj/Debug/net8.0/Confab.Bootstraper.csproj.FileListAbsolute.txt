@@ -194,3 +194,5 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Tickets.Core.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Tickets.Api.pdb
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Tickets.Core.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/module.tickets.json
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/module.tickets.development.json

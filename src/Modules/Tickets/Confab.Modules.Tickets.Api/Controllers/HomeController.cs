@@ -1,6 +1,10 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace Confab.Modules.Tickets.Api.Controllers;
 
-public class HomeController
+[Route(TicketsModule.BasePath)]
+internal class HomeController : BaseController
 {
-    
+    [HttpGet]
+    public ActionResult<string> Get() => "Tickets API";
 }

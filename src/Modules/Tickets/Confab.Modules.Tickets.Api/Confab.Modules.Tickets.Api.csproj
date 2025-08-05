@@ -10,4 +10,15 @@
       <ProjectReference Include="..\Confab.Modules.Tickets.Core\Confab.Modules.Tickets.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="module.tickets.json" />
+      <Content Include="module.tickets.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="module.tickets.development.json" />
+      <Content Include="module.tickets.development.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

@@ -11,7 +11,7 @@ public class ExceptionToResponseMapper : IExceptionToResponseMapper
     
     public ExceptionResponse Map(Exception exception) => exception switch
     {
-        ConferenceAppException => new ExceptionResponse(new ErrorsResponse(new Error(GetErrorCode(exception), exception.Message)), HttpStatusCode.BadRequest),
+        ConfabException => new ExceptionResponse(new ErrorsResponse(new Error(GetErrorCode(exception), exception.Message)), HttpStatusCode.BadRequest),
         _ => new ExceptionResponse(new ErrorsResponse(new Error("error", "There was an error.")), HttpStatusCode.InternalServerError)
     };
 
