@@ -8,7 +8,6 @@
 
     <ItemGroup>
         <ProjectReference Include="..\Confab.Modules.Speakers.Core\Confab.Modules.Speakers.Core.csproj" />
-        <ProjectReference Include="..\..\..\Shared\Confab.Shared.Infrastructure\Confab.Shared.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>

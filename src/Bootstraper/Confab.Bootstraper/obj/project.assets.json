@@ -1683,7 +1683,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Confab.Shared.Abstractions": "1.0.0",
           "Confab.Shared.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.11",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
@@ -1699,8 +1698,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Confab.Modules.Speakers.Core": "1.0.0",
-          "Confab.Shared.Infrastructure": "1.0.0"
+          "Confab.Modules.Speakers.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Confab.Modules.Speakers.Api.dll": {}
@@ -1713,7 +1711,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Confab.Shared.Abstractions": "1.0.0",
           "Confab.Shared.Infrastructure": "1.0.0"
         },
         "compile": {
@@ -1721,6 +1718,32 @@
         },
         "runtime": {
           "bin/placeholder/Confab.Modules.Speakers.Core.dll": {}
+        }
+      },
+      "Confab.Modules.Tickets.Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Confab.Modules.Tickets.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Confab.Modules.Tickets.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Confab.Modules.Tickets.Api.dll": {}
+        }
+      },
+      "Confab.Modules.Tickets.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Confab.Shared.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Confab.Modules.Tickets.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Confab.Modules.Tickets.Core.dll": {}
         }
       },
       "Confab.Modules.Users.Api/1.0.0": {
@@ -4379,6 +4402,16 @@
       "path": "../../Modules/Speakers/Confab.Modules.Speakers.Core/Confab.Modules.Speakers.Core.csproj",
       "msbuildProject": "../../Modules/Speakers/Confab.Modules.Speakers.Core/Confab.Modules.Speakers.Core.csproj"
     },
+    "Confab.Modules.Tickets.Api/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Tickets/Confab.Modules.Tickets.Api/Confab.Modules.Tickets.Api.csproj",
+      "msbuildProject": "../../Modules/Tickets/Confab.Modules.Tickets.Api/Confab.Modules.Tickets.Api.csproj"
+    },
+    "Confab.Modules.Tickets.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Tickets/Confab.Modules.Tickets.Core/Confab.Modules.Tickets.Core.csproj",
+      "msbuildProject": "../../Modules/Tickets/Confab.Modules.Tickets.Core/Confab.Modules.Tickets.Core.csproj"
+    },
     "Confab.Modules.Users.Api/1.0.0": {
       "type": "project",
       "path": "../../Modules/Users/Confab.Modules.Users.Api/Confab.Modules.Users.Api.csproj",
@@ -4404,6 +4437,7 @@
     "net8.0": [
       "Confab.Modules.Conferences.Api >= 1.0.0",
       "Confab.Modules.Speakers.Api >= 1.0.0",
+      "Confab.Modules.Tickets.Api >= 1.0.0",
       "Confab.Modules.Users.Api >= 1.0.0",
       "Confab.Shared.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.11"
@@ -4439,6 +4473,9 @@
             },
             "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Api/Confab.Modules.Speakers.Api.csproj": {
               "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Api/Confab.Modules.Speakers.Api.csproj"
+            },
+            "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/Confab.Modules.Tickets.Api.csproj": {
+              "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/Confab.Modules.Tickets.Api.csproj"
             },
             "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Users/Confab.Modules.Users.Api/Confab.Modules.Users.Api.csproj": {
               "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Users/Confab.Modules.Users.Api/Confab.Modules.Users.Api.csproj"

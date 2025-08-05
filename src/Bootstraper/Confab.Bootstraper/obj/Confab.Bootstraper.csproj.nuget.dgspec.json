@@ -32,6 +32,9 @@
               "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Api/Confab.Modules.Speakers.Api.csproj": {
                 "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Api/Confab.Modules.Speakers.Api.csproj"
               },
+              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/Confab.Modules.Tickets.Api.csproj": {
+                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/Confab.Modules.Tickets.Api.csproj"
+              },
               "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Users/Confab.Modules.Users.Api/Confab.Modules.Users.Api.csproj": {
                 "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Users/Confab.Modules.Users.Api/Confab.Modules.Users.Api.csproj"
               },
@@ -170,9 +173,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/Confab.Shared.Abstractions.csproj": {
-                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/Confab.Shared.Abstractions.csproj"
-              },
               "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj": {
                 "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj"
               }
@@ -253,9 +253,6 @@
             "projectReferences": {
               "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Core/Confab.Modules.Speakers.Core.csproj": {
                 "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Core/Confab.Modules.Speakers.Core.csproj"
-              },
-              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj": {
-                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj"
               }
             }
           }
@@ -316,9 +313,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/Confab.Shared.Abstractions.csproj": {
-                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/Confab.Shared.Abstractions.csproj"
-              },
               "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj": {
                 "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj"
               }
@@ -347,6 +341,130 @@
               "version": "[8.0.11, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.310/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/Confab.Modules.Tickets.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/Confab.Modules.Tickets.Api.csproj",
+        "projectName": "Confab.Modules.Tickets.Api",
+        "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/Confab.Modules.Tickets.Api.csproj",
+        "packagesPath": "/Users/fenix/.nuget/packages/",
+        "outputPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fenix/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Core/Confab.Modules.Tickets.Core.csproj": {
+                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Core/Confab.Modules.Tickets.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.310/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Core/Confab.Modules.Tickets.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Core/Confab.Modules.Tickets.Core.csproj",
+        "projectName": "Confab.Modules.Tickets.Core",
+        "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Core/Confab.Modules.Tickets.Core.csproj",
+        "packagesPath": "/Users/fenix/.nuget/packages/",
+        "outputPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fenix/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj": {
+                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",

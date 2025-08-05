@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\Shared\Confab.Shared.Abstractions\Confab.Shared.Abstractions.csproj" />
       <ProjectReference Include="..\..\..\Shared\Confab.Shared.Infrastructure\Confab.Shared.Infrastructure.csproj" />
     </ItemGroup>
 

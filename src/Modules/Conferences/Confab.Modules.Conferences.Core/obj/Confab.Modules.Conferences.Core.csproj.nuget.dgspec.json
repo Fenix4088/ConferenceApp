@@ -26,9 +26,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/Confab.Shared.Abstractions.csproj": {
-                "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Abstractions/Confab.Shared.Abstractions.csproj"
-              },
               "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj": {
                 "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj"
               }

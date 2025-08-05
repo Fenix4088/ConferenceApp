@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "Confab.Modules.Speakers.Api/1.0.0": {
         "dependencies": {
-          "Confab.Modules.Speakers.Core": "1.0.0",
-          "Confab.Shared.Infrastructure": "1.0.0"
+          "Confab.Modules.Speakers.Core": "1.0.0"
         },
         "runtime": {
           "Confab.Modules.Speakers.Api.dll": {}
@@ -862,7 +861,6 @@
       },
       "Confab.Modules.Speakers.Core/1.0.0": {
         "dependencies": {
-          "Confab.Shared.Abstractions": "1.0.0",
           "Confab.Shared.Infrastructure": "1.0.0"
         },
         "runtime": {

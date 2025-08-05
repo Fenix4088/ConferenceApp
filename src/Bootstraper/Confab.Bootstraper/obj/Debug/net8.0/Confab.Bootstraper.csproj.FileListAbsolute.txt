@@ -190,3 +190,7 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Tickets.Api.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Tickets.Core.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Tickets.Api.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Bootstraper/Confab.Bootstraper/bin/Debug/net8.0/Confab.Modules.Tickets.Core.pdb
