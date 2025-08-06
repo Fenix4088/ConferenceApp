@@ -5,6 +5,7 @@ using Confab.Shared.Abstractions.Modules;
 using Confab.Shared.Infrastructure.Api;
 using Confab.Shared.Infrastructure.Auth;
 using Confab.Shared.Infrastructure.Context;
+using Confab.Shared.Infrastructure.Events;
 using Confab.Shared.Infrastructure.Exceptions;
 using Confab.Shared.Infrastructure.Modules;
 using Confab.Shared.Infrastructure.Services;
@@ -69,6 +70,7 @@ internal static class Extensions
                 });
             })
             .AddErrorHandling()
+            .AddEvents(assemblies)
             .AddSingleton<IContextFactory, ContextFactory>()
             .AddSingleton<IHttpContextAccessor, HttpContextAccessor>()
             .AddTransient(sp => sp.GetRequiredService<IContextFactory>().Create())

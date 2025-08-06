@@ -36,3 +36,5 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/obj/Debug/net8.0/Confab.M.7D9806B3.Up2Date
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/obj/Debug/net8.0/Confab.Modules.Conferences.Core.genruntimeconfig.cache
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/obj/Debug/net8.0/ref/Confab.Modules.Conferences.Core.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/bin/Debug/net8.0/Confab.Modules.Conferences.Messages.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/bin/Debug/net8.0/Confab.Modules.Conferences.Messages.pdb

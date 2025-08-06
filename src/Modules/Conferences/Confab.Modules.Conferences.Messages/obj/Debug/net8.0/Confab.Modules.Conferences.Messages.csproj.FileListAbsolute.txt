@@ -1,0 +1,16 @@
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/bin/Debug/net8.0/Confab.Modules.Conferences.Messages.deps.json
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/bin/Debug/net8.0/Confab.Modules.Conferences.Messages.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/bin/Debug/net8.0/Confab.Modules.Conferences.Messages.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/bin/Debug/net8.0/Confab.Shared.Abstractions.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/bin/Debug/net8.0/Confab.Shared.Abstractions.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/obj/Debug/net8.0/Confab.Modules.Conferences.Messages.csproj.AssemblyReference.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/obj/Debug/net8.0/Confab.Modules.Conferences.Messages.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/obj/Debug/net8.0/Confab.Modules.Conferences.Messages.AssemblyInfoInputs.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/obj/Debug/net8.0/Confab.Modules.Conferences.Messages.AssemblyInfo.cs
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/obj/Debug/net8.0/Confab.Modules.Conferences.Messages.csproj.CoreCompileInputs.cache
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/obj/Debug/net8.0/Confab.Modules.Conferences.Messages.sourcelink.json
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/obj/Debug/net8.0/Confab.M.949E36AB.Up2Date
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/obj/Debug/net8.0/Confab.Modules.Conferences.Messages.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/obj/Debug/net8.0/refint/Confab.Modules.Conferences.Messages.dll
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/obj/Debug/net8.0/Confab.Modules.Conferences.Messages.pdb
+/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/obj/Debug/net8.0/ref/Confab.Modules.Conferences.Messages.dll

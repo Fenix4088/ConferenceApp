@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kdsNiYcqlbQ=",
+  "dgSpecHash": "v716vI8GHNI=",
   "success": true,
   "projectFilePath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Speakers/Confab.Modules.Speakers.Api/Confab.Modules.Speakers.Api.csproj",
   "expectedPackageFiles": [
@@ -67,6 +67,7 @@
     "/Users/fenix/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/Users/fenix/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
     "/Users/fenix/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/Users/fenix/.nuget/packages/microsoft.extensions.dependencymodel/8.0.2/microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
     "/Users/fenix/.nuget/packages/microsoft.extensions.logging/8.0.1/microsoft.extensions.logging.8.0.1.nupkg.sha512",
     "/Users/fenix/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.3/microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
     "/Users/fenix/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
@@ -80,6 +81,7 @@
     "/Users/fenix/.nuget/packages/microsoft.openapi/1.6.23/microsoft.openapi.1.6.23.nupkg.sha512",
     "/Users/fenix/.nuget/packages/npgsql/8.0.6/npgsql.8.0.6.nupkg.sha512",
     "/Users/fenix/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.11/npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512",
+    "/Users/fenix/.nuget/packages/scrutor/6.1.0/scrutor.6.1.0.nupkg.sha512",
     "/Users/fenix/.nuget/packages/swashbuckle.aspnetcore/8.1.4/swashbuckle.aspnetcore.8.1.4.nupkg.sha512",
     "/Users/fenix/.nuget/packages/swashbuckle.aspnetcore.redoc/8.1.4/swashbuckle.aspnetcore.redoc.8.1.4.nupkg.sha512",
     "/Users/fenix/.nuget/packages/swashbuckle.aspnetcore.swagger/8.1.4/swashbuckle.aspnetcore.swagger.8.1.4.nupkg.sha512",

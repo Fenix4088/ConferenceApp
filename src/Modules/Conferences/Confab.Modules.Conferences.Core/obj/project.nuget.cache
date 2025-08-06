@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Mnbi325FmS4=",
+  "dgSpecHash": "dU8TvqSgUm8=",
   "success": true,
   "projectFilePath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Core/Confab.Modules.Conferences.Core.csproj",
   "expectedPackageFiles": [
@@ -89,6 +89,7 @@
     "/Users/fenix/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/fenix/.nuget/packages/npgsql/8.0.6/npgsql.8.0.6.nupkg.sha512",
     "/Users/fenix/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.11/npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512",
+    "/Users/fenix/.nuget/packages/scrutor/6.1.0/scrutor.6.1.0.nupkg.sha512",
     "/Users/fenix/.nuget/packages/swashbuckle.aspnetcore/8.1.4/swashbuckle.aspnetcore.8.1.4.nupkg.sha512",
     "/Users/fenix/.nuget/packages/swashbuckle.aspnetcore.redoc/8.1.4/swashbuckle.aspnetcore.redoc.8.1.4.nupkg.sha512",
     "/Users/fenix/.nuget/packages/swashbuckle.aspnetcore.swagger/8.1.4/swashbuckle.aspnetcore.swagger.8.1.4.nupkg.sha512",

@@ -4,6 +4,10 @@ using Confab.Shared.Infrastructure.Modules;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//! Enable legacy timestamp behavior for PostgreSQL
+// https://stackoverflow.com/questions/69961449/net6-and-datetime-problem-cannot-write-datetime-with-kind-utc-to-postgresql-ty
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+
 builder.Host.ConfigureModules();
 
 var assemblies = ModuleLoader.LoadAssemblies(builder.Configuration);

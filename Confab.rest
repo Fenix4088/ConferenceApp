@@ -21,10 +21,10 @@ GET {{attendancesApi}}
 
 
 ### USERS MODULE
-@email = user1@confab.io
+@email = user2@confab.io
 @password = secret
 @role = user
-@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzNjkwMWFjYi0xOGU1LTQ2NWYtYTg1Mi00NzcyYzFiOGI3NGUiLCJ1bmlxdWVfbmFtZSI6IjM2OTAxYWNiLTE4ZTUtNDY1Zi1hODUyLTQ3NzJjMWI4Yjc0ZSIsImp0aSI6IjgxOWUzNGM4LTNlYTAtNDc3YS05ZTViLWNjNmJkM2UxYzUwZiIsImlhdCI6IjE3NTQzMzU1NDI5MDQiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJ1c2VyIiwicGVybWlzc2lvbnMiOlsiY29uZmVyZW5jZXMiLCJob3N0cyIsInNwZWFrZXJzIiwidGlja2V0cyIsInVzZXJzIl0sIm5iZiI6MTc1NDMzNTU0MiwiZXhwIjoxNzU0MzcxNTQyLCJpc3MiOiJjb25mYWIifQ.bYJmD4tSCAEOCjiKKgFxiTcvTL635bhcPwZENtRx3sg
+@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2U1M2FhZS1mN2I3LTQ0NDUtYWZmNi1kOGQzZTM2MDE5ZDEiLCJ1bmlxdWVfbmFtZSI6IjYzZTUzYWFlLWY3YjctNDQ0NS1hZmY2LWQ4ZDNlMzYwMTlkMSIsImp0aSI6IjczZTkxYTQ2LWNhMjItNGZjNS1hOTc5LTJmODlhODI3OTc4YiIsImlhdCI6IjE3NTQ0Njk0Mzc3ODkiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJ1c2VyIiwicGVybWlzc2lvbnMiOlsiY29uZmVyZW5jZXMiLCJob3N0cyIsInNwZWFrZXJzIiwidGlja2V0cyIsInVzZXJzIl0sIm5iZiI6MTc1NDQ2OTQzNywiZXhwIjoxNzU0NTA1NDM3LCJpc3MiOiJjb25mYWIifQ.N_kYMMmEakHVIfgoG3tFoXv2k7b2UjS3U17QDEDj0r8
 
 ###
 GET {{url}}
@@ -60,7 +60,7 @@ Content-Type: application/json
 
 ### HOSTS
 ###
-@hostId = 24b9a41f-2bca-46f9-aeb3-4a74b268ecce
+@hostId = 5fc8f38b-fa00-48ec-bb46-26bc8b79feee
 
 
 GET {{conferencesApi}}/host
@@ -76,7 +76,7 @@ Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 {
-  "name": "Host #1",
+  "name": "Host #5",
   "description": "Lorem ipsum"
 }
 
@@ -111,8 +111,8 @@ Content-Type: application/json
 
 {
   "hostId": "{{hostId}}",
-  "name": "Conference #1",
-  "hostName": "Host #1",
+  "name": "Conference #7",
+  "hostName": "Host #5",
   "description": "Lorem ipsum conference description",
   "location": "Test street 12/34",
   "from": "2026-06-01",
