@@ -40,8 +40,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Modules.Tickets.Api"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Modules.Tickets.Core", "src\Modules\Tickets\Confab.Modules.Tickets.Core\Confab.Modules.Tickets.Core.csproj", "{EFE9E7CB-2B98-4128-A3C0-DCE9979A5982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confab.Modules.Conferences.Messages", "src\Modules\Conferences\Confab.Modules.Conferences.Messages\Confab.Modules.Conferences.Messages.csproj", "{DC2DFCD6-65D5-49EF-A616-3667E61571C2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,10 +90,6 @@ Global
 		{EFE9E7CB-2B98-4128-A3C0-DCE9979A5982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFE9E7CB-2B98-4128-A3C0-DCE9979A5982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFE9E7CB-2B98-4128-A3C0-DCE9979A5982}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DC2DFCD6-65D5-49EF-A616-3667E61571C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC2DFCD6-65D5-49EF-A616-3667E61571C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC2DFCD6-65D5-49EF-A616-3667E61571C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC2DFCD6-65D5-49EF-A616-3667E61571C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FA1A6517-6D75-44EE-A0E0-DACE0D317A1E} = {6F2DA59A-7445-443B-B866-06ADC32E44E7}
@@ -116,6 +110,5 @@ Global
 		{6019450F-00BB-46DC-B8D6-110D41220572} = {D8A40A42-A24A-4B1B-942C-4FAE0D5840C6}
 		{8466CBC4-A4E5-4D8A-96CD-5066930E9EE7} = {6019450F-00BB-46DC-B8D6-110D41220572}
 		{EFE9E7CB-2B98-4128-A3C0-DCE9979A5982} = {6019450F-00BB-46DC-B8D6-110D41220572}
-		{DC2DFCD6-65D5-49EF-A616-3667E61571C2} = {3AE61BED-F5B0-4032-8775-0A95D9CA0B5A}
 	EndGlobalSection
 EndGlobal

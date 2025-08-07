@@ -881,21 +881,12 @@
       },
       "Confab.Modules.Conferences.Core/1.0.0": {
         "dependencies": {
-          "Confab.Modules.Conferences.Messages": "1.0.0",
           "Confab.Shared.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.11",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
         },
         "runtime": {
           "Confab.Modules.Conferences.Core.dll": {}
-        }
-      },
-      "Confab.Modules.Conferences.Messages/1.0.0": {
-        "dependencies": {
-          "Confab.Shared.Abstractions": "1.0.0"
-        },
-        "runtime": {
-          "Confab.Modules.Conferences.Messages.dll": {}
         }
       },
       "Confab.Shared.Abstractions/1.0.0": {
@@ -1522,11 +1513,6 @@
       "hashPath": "system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
     },
     "Confab.Modules.Conferences.Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Confab.Modules.Conferences.Messages/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

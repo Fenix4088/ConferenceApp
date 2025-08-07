@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Confab.Modules.Tickets.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84e00ba517fbe68274a59f7df0e321737a702db4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51ad7832ded19d8363a86356d654c7ba114b7491")]
 [assembly: System.Reflection.AssemblyProductAttribute("Confab.Modules.Tickets.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Confab.Modules.Tickets.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

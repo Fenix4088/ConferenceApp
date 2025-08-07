@@ -1235,21 +1235,12 @@
       },
       "Confab.Modules.Conferences.Core/1.0.0": {
         "dependencies": {
-          "Confab.Modules.Conferences.Messages": "1.0.0",
           "Confab.Shared.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.11",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
         },
         "runtime": {
           "Confab.Modules.Conferences.Core.dll": {}
-        }
-      },
-      "Confab.Modules.Conferences.Messages/1.0.0": {
-        "dependencies": {
-          "Confab.Shared.Abstractions": "1.0.0"
-        },
-        "runtime": {
-          "Confab.Modules.Conferences.Messages.dll": {}
         }
       },
       "Confab.Modules.Speakers.Api/1.0.0": {
@@ -1278,7 +1269,6 @@
       },
       "Confab.Modules.Tickets.Core/1.0.0": {
         "dependencies": {
-          "Confab.Modules.Conferences.Messages": "1.0.0",
           "Confab.Shared.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -2077,11 +2067,6 @@
       "sha512": ""
     },
     "Confab.Modules.Conferences.Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Confab.Modules.Conferences.Messages/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -42,5 +42,3 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Api/obj/Debug/net8.0/Confab.Modules.Conferences.Api.sourcelink.json
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Api/obj/Debug/net8.0/Confab.M.BC33C769.Up2Date
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Api/obj/Debug/net8.0/ref/Confab.Modules.Conferences.Api.dll
-/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Api/bin/Debug/net8.0/Confab.Modules.Conferences.Messages.dll
-/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Api/bin/Debug/net8.0/Confab.Modules.Conferences.Messages.pdb

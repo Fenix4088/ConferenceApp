@@ -879,17 +879,8 @@
           }
         }
       },
-      "Confab.Modules.Conferences.Messages/1.0.0": {
-        "dependencies": {
-          "Confab.Shared.Abstractions": "1.0.0"
-        },
-        "runtime": {
-          "Confab.Modules.Conferences.Messages.dll": {}
-        }
-      },
       "Confab.Modules.Tickets.Core/1.0.0": {
         "dependencies": {
-          "Confab.Modules.Conferences.Messages": "1.0.0",
           "Confab.Shared.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -1518,11 +1509,6 @@
       "sha512": "sha512-Thhbe1peAmtSBFaV/ohtykXiZSOkx59Da44hvtWfIMFofDA3M3LaVyjstACf2rKGn4dEDR2cUpRAZ0Xs/zB+7Q==",
       "path": "system.identitymodel.tokens.jwt/7.1.2",
       "hashPath": "system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
-    },
-    "Confab.Modules.Conferences.Messages/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Confab.Modules.Tickets.Core/1.0.0": {
       "type": "project",

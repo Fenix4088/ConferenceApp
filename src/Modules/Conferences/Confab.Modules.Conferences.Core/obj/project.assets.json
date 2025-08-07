@@ -1683,19 +1683,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Confab.Modules.Conferences.Messages/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Confab.Shared.Abstractions": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Confab.Modules.Conferences.Messages.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Confab.Modules.Conferences.Messages.dll": {}
-        }
-      },
       "Confab.Shared.Abstractions/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4328,11 +4315,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Confab.Modules.Conferences.Messages/1.0.0": {
-      "type": "project",
-      "path": "../Confab.Modules.Conferences.Messages/Confab.Modules.Conferences.Messages.csproj",
-      "msbuildProject": "../Confab.Modules.Conferences.Messages/Confab.Modules.Conferences.Messages.csproj"
-    },
     "Confab.Shared.Abstractions/1.0.0": {
       "type": "project",
       "path": "../../../Shared/Confab.Shared.Abstractions/Confab.Shared.Abstractions.csproj",
@@ -4346,7 +4328,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Confab.Modules.Conferences.Messages >= 1.0.0",
       "Confab.Shared.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.11",
@@ -4378,9 +4359,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/Confab.Modules.Conferences.Messages.csproj": {
-              "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Conferences/Confab.Modules.Conferences.Messages/Confab.Modules.Conferences.Messages.csproj"
-            },
             "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj": {
               "projectPath": "/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Shared/Confab.Shared.Infrastructure/Confab.Shared.Infrastructure.csproj"
             }

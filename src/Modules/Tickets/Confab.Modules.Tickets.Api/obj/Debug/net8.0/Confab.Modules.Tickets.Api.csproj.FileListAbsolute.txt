@@ -20,5 +20,3 @@
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/obj/Debug/net8.0/ref/Confab.Modules.Tickets.Api.dll
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/bin/Debug/net8.0/module.tickets.json
 /Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/bin/Debug/net8.0/module.tickets.development.json
-/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/bin/Debug/net8.0/Confab.Modules.Conferences.Messages.dll
-/Users/fenix/Documents/webdev/courses/conferenceApp/ConferenceApp/src/Modules/Tickets/Confab.Modules.Tickets.Api/bin/Debug/net8.0/Confab.Modules.Conferences.Messages.pdb
