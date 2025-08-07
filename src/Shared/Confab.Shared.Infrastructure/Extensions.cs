@@ -7,6 +7,7 @@ using Confab.Shared.Infrastructure.Auth;
 using Confab.Shared.Infrastructure.Context;
 using Confab.Shared.Infrastructure.Events;
 using Confab.Shared.Infrastructure.Exceptions;
+using Confab.Shared.Infrastructure.Messaging;
 using Confab.Shared.Infrastructure.Modules;
 using Confab.Shared.Infrastructure.Services;
 using Confab.Shared.Infrastructure.Time;
@@ -71,6 +72,7 @@ internal static class Extensions
             })
             .AddErrorHandling()
             .AddEvents(assemblies)
+            .AddMessaging()
             .AddSingleton<IContextFactory, ContextFactory>()
             .AddSingleton<IHttpContextAccessor, HttpContextAccessor>()
             .AddTransient(sp => sp.GetRequiredService<IContextFactory>().Create())

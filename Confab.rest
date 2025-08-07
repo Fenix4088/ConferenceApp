@@ -111,7 +111,7 @@ Content-Type: application/json
 
 {
   "hostId": "{{hostId}}",
-  "name": "Conference #7",
+  "name": "Conference #99",
   "hostName": "Host #5",
   "description": "Lorem ipsum conference description",
   "location": "Test street 12/34",
